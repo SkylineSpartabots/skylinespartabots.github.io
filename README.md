@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# Home
+Welcome to Team 2976 Spartabots' Wiki.
 
-You can use the [editor on GitHub](https://github.com/SkylineSpartabots/skylinespartabotsgithub.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This site includes information and how-tos regarding our building and software teams.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Build
+- ### [Design](/design)
 
-### Markdown
+- ### [Electronics](/electronics)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- ### [Parts](/parts)
 
-```markdown
-Syntax highlighted code block
+- ### [Tools](/tools)
 
-# Header 1
-## Header 2
-### Header 3
+## Software
+- ### [Installation](/installation)
 
-- Bulleted
-- List
+- ### [Organization](/organization)
 
-1. Numbered
-2. List
+- ### [Connectivity](/connectivity)
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SkylineSpartabots/skylinespartabotsgithub.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- ### [Java](/java)

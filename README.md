@@ -4,19 +4,19 @@ Welcome to Team 2976 Spartabots' Wiki.
 This site includes information and how-tos regarding our building and software teams.
 
 ## Build
-- ### [Design](/Design)
+- ### [Design](/design)
 
-- ### [Electronics](/Electronics)
+- ### [Electronics](/electronics)
 
-- ### [Parts](/Parts)
+- ### [Parts](/parts)
 
-- ### [Tools](/Tools)
+- ### [Tools](/tools)
 
 ## Software
-- ### [Installation](/Installation)
+- ### [Installation](/installation)
 
-- ### [Organization](/Organization)
+- ### [Organization](/organization)
 
-- ### [Connectivity](/Connectivity)
+- ### [Connectivity](/connectivity)
 
-- ### [Java](/Java)
+- ### [Java](/java)

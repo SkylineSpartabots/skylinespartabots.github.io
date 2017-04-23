@@ -18,9 +18,5 @@ This site includes information and how-tos regarding our building and software t
 - ### [Organization](/software/organization)
 
 - ### [Connectivity](/software/connectivity)
-    - #### [Configuring CANTalon](/software/connectivity/configuring-cantalon)
-    - #### [Configuring the radio](/software/connectivity/configuring-the-radio)
-    - #### [Connecting to the roboRIO](/software/connectivity/connecting-to-the-roborio)
-    - #### [Imaging the roboRIO](/software/connectivity/imaging-the-roborio)
 
 - ### [Java](/software/java)

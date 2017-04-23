@@ -36,24 +36,6 @@
 
         {{ content }}
 
-        {% if page.path contains "index.md" %}
-            <ul>
-            {% if page.collection == "software" %}
-                {% for thing in site.software %}
-                {% unless thing.url contains "index" %}
-                    <li><a href="{{ thing.url }}">{{ thing.title }}</a></li>
-                {% endunless %}
-                {% endfor %}
-            {% elsif page.collection == "build" %}
-                {% for thing in site.build %}
-                {% unless thing.url contains "index" %}
-                    <li><a href="{{ thing.url }}">{{ thing.title }}</a></li>
-                {% endunless %}
-                {% endfor %}
-            {% endif %}
-            </ul>
-        {% endif %}
-
         <footer class="site-footer">
             <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by the Skyline Spartabots (FRC 2976).<br><a href="https://www.spartabots.org/">Website</a> | <a href="{{ site.github.owner_url }}">GitHub</a> | <a href="https://www.facebook.com/spartabots">Facebook</a> | <a href="https://twitter.com/spartabots">Twitter</a> | <a href="https://www.instagram.com/spartabots2976/">Instagram</a></span>
         </footer>

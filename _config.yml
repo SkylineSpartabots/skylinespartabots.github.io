@@ -1,2 +1,28 @@
 theme: jekyll-theme-cayman
 repository: skylinespartabots/skylinespartabots.github.io
+title: Skyline Spartabots Wiki
+
+sass:
+    style: compressed
+
+collections:
+    build:
+        output: true
+        permalink: /:collection/:path
+    software:
+        output: true
+        permalink: /:collection/:path
+
+defaults:
+    -
+        scope:
+            path: ""
+            type: "build"
+        values:
+            layout: "default"
+    -
+        scope:
+            path: ""
+            type: "software"
+        values:
+            layout: "default"

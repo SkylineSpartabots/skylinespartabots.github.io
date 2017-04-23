@@ -3,20 +3,24 @@ Welcome to Team 2976 Spartabots' Wiki.
 
 This site includes information and how-tos regarding our building and software teams.
 
-## Build
-- ### [Design](/design)
+## [Build](/build)
+- ### [Design](/build/design)
 
-- ### [Electronics](/electronics)
+- ### [Electronics](/build/electronics)
 
-- ### [Parts](/parts)
+- ### [Parts](/build/parts)
 
-- ### [Tools](/tools)
+- ### [Tools](/build/tools)
 
-## Software
-- ### [Installation](/installation)
+## [Software](/software)
+- ### [Installation](/software/installation)
 
-- ### [Organization](/organization)
+- ### [Organization](/software/organization)
 
-- ### [Connectivity](/connectivity)
+- ### [Connectivity](/software/connectivity)
+    - #### [Configuring CANTalon](/software/connectivity/configuring-cantalon)
+    - #### [Configuring the radio](/software/connectivity/configuring-the-radio)
+    - #### [Connecting to the roboRIO](/software/connectivity/connecting to-the-roborio)
+    - #### [Imaging the roboRIO](/software/connectivity/imaging-the-roborio)
 
-- ### [Java](/java)
+- ### [Java](/software/java)

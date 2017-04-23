@@ -1,3 +1,6 @@
+---
+title: Organization
+---
 # Organization
 
 ## Command based

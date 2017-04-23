@@ -25,5 +25,9 @@ The vise grip is more or less a handheld clamp. The vise grip can be used as a s
 ## Saw
 The saw is a handheld tool used to cut material. It's pretty straightforward.
 
-## Rivet guns
-Work in progress.
+## Rivet Guns
+Rivet guns are used to fasten materials together where nails or nuts and bolts are inapplicable. There are two types of hand riveters we use:
+### Pop Rivet Gun
+This tool consists of two handles and a nozzle-like head from which a single rivet is pushed out of. The rivet is held snug in the head by a pin dye of matching size. Spare pin dyes are held on the front handle of this tool. To use the pop rivet gun, insert a rivet into the cavity in the tool head, align the rivet with the pre-drilled hole in the desired materials, then pump the back handle continuously until you hear a "pop" and the rivet should fasten cleanly. The stem of the rivet will break off in the process. For an instructional video, click [here](https://youtu.be/WPwNsQMnx88).
+### Heavy Duty Hand Riveter
+This riveter is more applicable when fastening thicker materials together, such as sheets of metal. This tool consists of two large handles, a nozzle at the end, and a collection bottle between the two handles. To use the heavy duty hand riveter, insert the rivet and align it like before. Pump the two handles together until you hear a pop, and the rivet is secure. The stem of the rivet should end up in the collection bottle.

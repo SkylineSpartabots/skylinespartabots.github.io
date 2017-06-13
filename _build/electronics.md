@@ -9,8 +9,7 @@ Electronics is a complex system of wires and equipment that allow the robot to f
 
 ## Tools
 
-### Wire strippers/cutters
-Work in progress
-
+### Wire strippers
+To strip a wire close the wire strippers around the wire at its corresponding width and pull.
 ### Crimpers
 Work in progress

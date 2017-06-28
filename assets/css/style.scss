@@ -3,22 +3,89 @@
 
 @import "{{ site.theme }}";
 
-.site-footer-credits {
-    display: none;
+$color-green: #159957;
+$color-blue: #1e6bb8;
+$color-paleblue: #cad9e8;
+
+body {
+    position: relative; // required for scrollspy
+}
+
+.breadcrumbs span {
+    font-family: "Consolas", monospace;
 }
 
 h2 a {
-    color: #159957;
+    color: $color-green;
 }
 
-a.github-edit {
-
+.nav {
+    padding: 0;
 }
 
-.breadcrumbs {
-    span {
-        font-family: "Consolas", monospace;
+#toc_nav {
+    margin: 2rem;
+    right: 1rem;
+
+    border: 3px solid #cad9e8; // only mobile
+    padding-left: 10px; // only mobile
+
+    & ul {
+        padding: 0;
+        list-style: none;
     }
+
+    & > ul > li > ul > li {
+        border-left-width: 2px;
+        font-size: 0.9em;
+
+        & > ul > li {
+            border-left-width: 1px;
+            font-size: 0.85em;
+        }
+    }
+
+    & li {
+        margin: 15px 0;
+        padding-left: 8px;
+        border-left: 4px solid $color-paleblue;
+    }
+}
+
+@media (min-width: 1100px) {
+    .main-content {
+        padding-right: 6rem;
+    }
+
+    .affix {
+        position: fixed;
+        top: 0;
+    }
+
+    .affix-top {
+        position: absolute;
+    }
+
+    #toc_nav {
+        display: block;
+        padding: 0;
+        border: 0;
+        font-size: 0.95em;
+
+        & li {
+            &.active {
+                border-left-color: $color-green;
+            }
+
+            &:hover {
+                border-left-color: $color-blue;
+            }
+        }
+    }
+}
+
+.site-footer-credits {
+    display: none;
 }
 
 span {
@@ -30,14 +97,12 @@ span {
         text-decoration: line-through;
     }
 
-    &.safety {
-        font-weight: bold;
+    &.safety, &.important {
         color: #d10;
+        font-weight: bold;
         text-decoration: underline;
     }
     &.important {
-        font-weight: bold;
-        text-decoration: underline;
         text-decoration-color: #222;
         -webkit-animation: rainbow 3s infinite;
         animation: rainbow 3s infinite;
@@ -45,20 +110,20 @@ span {
 }
 
 @-webkit-keyframes rainbow {
-	14% {color: #f00;}
-	29% {color: #ff0;}
-	43% {color: #0f0;}
-	57% {color: #0ff;}
-	71% {color: #00f;}
-	86% {color: #f0f;}
-	100% {color: #f00;}
+    14% {color: #f00;}
+    29% {color: #ff0;}
+    43% {color: #0f0;}
+    57% {color: #0ff;}
+    71% {color: #00f;}
+    86% {color: #f0f;}
+    100% {color: #f00;}
 }
 @keyframes rainbow {
-	14% {color: #e11;}
-	29% {color: #ee1;}
-	43% {color: #1e1;}
-	57% {color: #1ee;}
-	71% {color: #11e;}
-	86% {color: #e1e;}
-	100% {color: #e11;}
+    14% {color: #e11;}
+    29% {color: #ee1;}
+    43% {color: #1e1;}
+    57% {color: #1ee;}
+    71% {color: #11e;}
+    86% {color: #e1e;}
+    100% {color: #e11;}
 }

@@ -9,8 +9,29 @@
     <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+    <script>
+    $(function() {
+        var header = $(".page-header");
+        $("#toc_nav").affix({offset: {
+            top: function() {
+                return (this.top = header.outerHeight(true));
+            },
+            bottom: function () {
+                return (this.bottom = $("footer").outerHeight(true));
+            }
+        }}).on("affixed-top.bs.affix", function() {
+            $(this).css("top", header.outerHeight(true));
+        }).on("affixed.bs.affix", function() {
+            $(this).css("top", 0);
+        });
+        $(".affix-top").css("top", header.outerHeight(true))
+        $(".affix").css("top", 0);
+    });
+    </script>
 </head>
-<body>
+<body data-spy="scroll" data-target="#toc_nav">
     <section class="page-header">
         <h1 class="project-name">Skyline Spartabots Wiki</h1>
         <h2 class="project-tagline">All of the Spartabots' teaching resources</h2>
@@ -38,7 +59,7 @@
         {{ content }}
 
         <footer class="site-footer">
-            <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by the Skyline Spartabots (FRC 2976).<br><a href="https://www.spartabots.org/">Website</a> | <a href="{{ site.github.owner_url }}">GitHub</a> | <a href="https://www.facebook.com/spartabots">Facebook</a> | <a href="https://twitter.com/spartabots">Twitter</a> | <a href="https://www.instagram.com/spartabots2976/">Instagram</a></span>
+            <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by the Skyline Spartabots (FRC 2976).<br><a href="https://www.spartabots.org/">Website</a> | <a href="https://github.com/skylinespartabots">GitHub</a> | <a href="https://www.facebook.com/spartabots">Facebook</a> | <a href="https://twitter.com/spartabots">Twitter</a> | <a href="https://www.instagram.com/spartabots2976/">Instagram</a></span>
         </footer>
     </section>
 

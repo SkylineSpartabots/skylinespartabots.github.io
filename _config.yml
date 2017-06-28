@@ -2,6 +2,8 @@ theme: jekyll-theme-cayman
 repository: skylinespartabots/skylinespartabots.github.io
 title: Skyline Spartabots Wiki
 
+markdown: kramdown
+
 sass:
     style: compressed
 

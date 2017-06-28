@@ -2,6 +2,18 @@
 title: Connecting to the roboRIO
 ---
 # Connecting to the roboRIO
+{:.no_toc}
+
+{::options parse_block_html="true" /}
+<div id="toc_nav" class="affix">
+* This line is for the table of contents to be generated
+{:toc}
+{:.nav}
+</div>
+{::options parse_block_html="false" /}
+
+<!-- Don't change anything above this point! -->
+
 ## How to connect
 1. Connect your computer to the roboRIO's USB A port
 2. Go to command prompt and run `ping 172.22.11.2`

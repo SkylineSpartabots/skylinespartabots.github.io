@@ -18,4 +18,6 @@ There's not much here. [Why not add something?](https://github.com/SkylineSparta
 
 [Installing Eclipse with SourceTree and GitHub (docx)](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxzcGFydGFib3Rzd2lraXxneDoxMDBmYzJlODIzYzkyZTU0)
 
+* Alternate IDE: [Installing IntelliJ IDEA with WPILib (external link)](https://gitlab.com/Javaru/frc-intellij-idea-plugin/wikis/home)
+
 [Installing NavX (docx)](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxzcGFydGFib3Rzd2lraXxneDo2Mzc4YTA1MWJhYTdkODMw)

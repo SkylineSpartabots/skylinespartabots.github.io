@@ -8,11 +8,14 @@ If you want to contribute, **please read the [how to contribute](/contributing) 
 ## [Build](/build)
 - ### [Design](/build/design)
 
-- ### [Electronics](/build/electronics)
-
 - ### [Parts](/build/parts)
 
 - ### [Tools](/build/tools)
+
+## [Electrical](/electrical)
+- ### [Parts](/electrical/parts)
+
+- ### [Tools](/electrical/tools)
 
 ## [Software](/software)
 - ### [Installation](/software/installation)

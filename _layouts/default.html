@@ -18,7 +18,7 @@
             top: function() {
                 return (this.top = header.outerHeight(true));
             },
-            bottom: function () {
+            bottom: function() {
                 return (this.bottom = $("footer").outerHeight(true));
             }
         }}).on("affixed-top.bs.affix", function() {
@@ -33,7 +33,7 @@
 </head>
 <body data-spy="scroll" data-target="#toc_nav">
     <section class="page-header">
-        <h1 class="project-name">Skyline Spartabots Wiki</h1>
+        <h1 class="project-name"><a href="{{ site.baseurl }}">Skyline Spartabots Wiki</a></h1>
         <h2 class="project-tagline">All of the Spartabots' teaching resources</h2>
     </section>
 
@@ -48,6 +48,7 @@
                 {% for item in breadcrumbs %}
                 {% if item == "_software" %}<a href="/software">Software</a> <span>&gt;</span>
                 {% elsif item == "_build" %}<a href="/build">Build</a> <span>&gt;</span>
+                {% elsif item == "_electrical" %}<a href="/electrical">Electrical</a> <span>&gt;</span>
                 {% elsif item == "index.md" or item == "README.md" %}{% elsif item contains ".md" %}<a href="{{ page.url }}">{{ page.title }}</a>
                 {% else %}
                 <a href=".">{{ item | capitalize }}</a> <span>&gt;</span>
